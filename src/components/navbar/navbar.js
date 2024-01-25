@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu'
 
 function Navbar(){
     return(<>
-      <Box sx={{ flexGrow: 1,border:"1px solid red",height:"75px" }}>
+      <Box sx={{ flexGrow: 1,height:"75px" }}>
       <AppBar position="static" sx={{height:"75px",display:"flex",justifyContent:"center",background:"radial-gradient(circle at 10% 20%, rgb(255, 200, 124) 0%, rgb(252, 251, 121) 90%);"}}>
         <Toolbar variant="dense">
           <IconButton edge="start" color="inherit" aria-label="menu" sx={{ mr: 2 }}>
